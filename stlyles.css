@@ -1,0 +1,56 @@
+.title{
+    color: white;
+    font-family:  'Merriweather', serif;
+    font-size: 100px;
+    text-shadow: 10px 10px black;
+    display: block;
+    text-align: center;
+    border-bottom: solid 5px black;
+}
+.div1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    background-image: url(wood-theme-my11.jpg) ;
+    background-size: contain;
+    padding: 0px 0px 10px 0px;;
+}
+.img1{
+    display: flex;
+   
+}
+.img2{
+   display: flex;
+    
+}
+.img3{
+   display: flex;
+}
+.TaC{
+    color: rgb(170, 20, 20);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.body{
+    color:white ;
+    margin: 0;
+}
+.sc2{
+    border-radius: 100px;
+    width: 300px;
+}
+.sc3{
+    border-radius: 100px;
+    width: 300px;
+}
+.sc4{
+    border-radius: 100px;
+    width: 300px;
+}
+.sc5{
+    border-radius: 100px;}
+.but{
+    padding: 20px;
+    background-color: brown;
+    cursor: pointer;
+}
