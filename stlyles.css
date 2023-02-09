@@ -5,19 +5,39 @@
     text-shadow: 10px 10px black;
     display: block;
     text-align: center;
-    border-bottom: solid 5px black;
+    border-bottom: solid 5px whitesmoke;
+    animation: textChanger 2s ease infinite;
+}
+@keyframes textChanger {
+    0%{
+        color: black;
+    }
+    25%{
+        color: chocolate;
+    }
+    50%{
+        color: aliceblue;
+    }
+    75%{
+        color: crimson;
+    }
+    100%{
+        color: white;
+    }
 }
 .div1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
-    background-image: url(wood-theme-my11.jpg) ;
+    background-image: url(200w\ \(6\).webp );
     background-size: contain;
     padding: 0px 0px 10px 0px;;
 }
-.img1{
+.img{
     display: flex;
-   
 }
+
+
+
 .img2{
    display: flex;
     
@@ -50,7 +70,78 @@
 .sc5{
     border-radius: 100px;}
 .but{
-    padding: 20px;
-    background-color: brown;
+    border: solid red 5px;
+    background-color: rgb(170, 15, 15);
     cursor: pointer;
+    padding: 20px;
+}
+.test2{
+    
+    position: relative;
+    width: 50%;
+    height: 30cm;
+    overflow: hidden;
+    
+}
+.img3{
+    width: 100%;
+    height: 90%;
+}
+.test2 h5{
+    transition: all 6s ease;
+    position: relative;
+    font-family: monospace;
+    left: 100%;
+    bottom: 1.2cm;
+}
+.test2:hover h5{
+    left: 0;
+}
+.test1{
+    
+    width: 100%;
+    height: 13.5cm;
+    overflow: hidden;
+    position: relative;
+
+}
+.img2{
+    width: 50%;
+    height: 10cm;
+
+}
+.test1 h5{
+    position: relative;
+    font-family: monospace;
+    left: 100%;
+    transition: all 6s ease;
+
+}
+.test1:hover h5{
+    left: 0;
+}
+
+.test{
+    
+    width: 50%;
+    height: 15cm;
+    overflow: hidden;
+    position: relative;
+}
+.img1{
+    width: 100%;
+    height: 12cm;
+}
+.test h5{
+    position: relative;
+    bottom: 17cm;
+    transition: all 0.4 ease;
+    font-family: monospace;
+    
+}
+.test:hover h5{
+    top: -8cm;
+}
+.img1:hover{
+    opacity: 0.3;
 }
